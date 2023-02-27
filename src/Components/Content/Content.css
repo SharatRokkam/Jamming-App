@@ -1,0 +1,78 @@
+.main {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.content_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.content_left {
+    flex: 0.15;
+    padding-top: 1rem;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.content_right {
+    flex: 2;
+    padding: 1rem;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #404258;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+}
+
+.box_container {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+#oneUser {
+    width: 200%;
+}
+
+.host {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(255, 179, 0);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.name {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: rgb(204, 204, 204);
+    background-color: rgba(0, 0, 0, 0.442);
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
